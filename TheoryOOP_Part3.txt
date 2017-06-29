@@ -1,0 +1,19 @@
+﻿different between abstract & interface:
+- abstract describe a object, interface describe a group of method
+- access specification of:
++ abstract are: default/protected/public 
++ interface is only: public
+
+Multiple inheritance in java appear inheritance in the interface
+-> One interface can extends from many others interface.
+Note: One class only extends from one class
+
+Final use to constant variables, can not override it.
+Final Class prevent use inheritance
+Abstract and Final never use together
+
+Static use to define static member in a class. Exmaple: Math.PI, Math.sqrt(5),...
+Static doesn't depend on object, class depend on object
+Static define block code and In static block only use static variables
+Static run when we use any static components in our code.
+Block static only run one time
